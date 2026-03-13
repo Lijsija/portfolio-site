@@ -1,123 +1,15 @@
 // images.js
-const galleryContainer = document.getElementById('gallery');
 
-// List all your images here, make sure the filenames are exact lowercase .jpg
-const imageList = [
-  "images/foto1.jpg",
-  "images/foto2.jpg",
-  "images/foto3.jpg",
-  "images/foto4.jpg",
-    "images/foto5.jpg",
-    "images/foto6.jpg",
-    "images/foto7.jpg",
-    "images/foto8.jpg",
-    "images/foto9.jpg",
-    "images/foto10.jpg",
-    "images/foto11.jpg",
-    "images/foto12.jpg",
-    "images/foto13.jpg",
-    "images/foto14.jpg",
-    "images/foto15.jpg",
-    "images/foto16.jpg",
-    "images/foto17.jpg",
-    "images/foto18.jpg",
-    "images/foto19.jpg",
-    "images/foto20.jpg",
-    "images/foto21.jpg",
-    "images/foto22.jpg",
-    "images/foto23.jpg",
-    "images/foto24.jpg",
-    "images/foto25.jpg",
-    "images/foto26.jpg",
-    "images/foto27.jpg",
-    "images/foto28.jpg",
-    "images/foto29.jpg",
-    "images/foto30.jpg",
-    "images/foto31.jpg",
-    "images/foto32.jpg",
-    "images/foto33.jpg",
-    "images/foto34.jpg",
-    "images/foto35.jpg",
-    "images/foto36.jpg",
-    "images/foto37.jpg",
-    "images/foto38.jpg",
-    "images/foto39.jpg",
-    "images/foto40.jpg",
-    "images/foto41.jpg",
-    "images/foto42.jpg",
-    "images/foto43.jpg",
-    "images/foto44.jpg",
-    "images/foto45.jpg",
-    "images/foto46.jpg",
-    "images/foto47.jpg",
-    "images/foto48.jpg",
-    "images/foto49.jpg",
-    "images/foto50.jpg",
-    "images/foto51.jpg",
-    "images/foto52.jpg",
-    "images/foto53.jpg",
-    "images/foto54.jpg",
-    "images/foto55.jpg",
-    "images/foto56.jpg",
-    "images/foto57.jpg",
-    "images/foto58.jpg",
-    "images/foto59.jpg",
-    "images/foto60.jpg",
-    "images/foto61.jpg",
-    "images/foto62.jpg",
-    "images/foto63.jpg",
-    "images/foto64.jpg",
-    "images/foto65.jpg",
-    "images/foto66.jpg",
-    "images/foto67.jpg",
-    "images/foto68.jpg",
-    "images/foto69.jpg",
-    "images/foto70.jpg",
-    "images/foto71.jpg",
-    "images/foto72.jpg",
-    "images/foto73.jpg",
-    "images/foto74.jpg",
-    "images/foto75.jpg",
-    "images/foto76.jpg",
-    "images/foto77.jpg",
-    "images/foto78.jpg",
-    "images/foto79.jpg",
-    "images/foto80.jpg",
-    "images/foto81.jpg",
-    "images/foto82.jpg",
-    "images/foto83.jpg",
-    "images/foto84.jpg",
-    "images/foto85.jpg",
-    "images/foto86.jpg",
-    "images/foto87.jpg",
-    "images/foto88.jpg",
-    "images/foto89.jpg",
-    "images/foto90.jpg",
-    "images/foto91.jpg",
-    "images/foto92.jpg",
-    "images/foto93.jpg",
-    "images/foto94.jpg",
-    "images/foto95.jpg",
-    "images/foto96.jpg",
-    "images/foto97.jpg",
-    "images/foto98.jpg",
-    "images/foto99.jpg",
-    "images/foto100.jpg",
-    "images/foto101.jpg",
-    "images/foto102.jpg",
-    "images/foto103.jpg",
-    "images/foto104.jpg",
-    "images/foto105.jpg",
-    "images/foto106.jpg",
-    "images/foto107.jpg",
+// Number of images in your portfolio
+const totalPhotos = 107; // update if you add/remove images
 
+// Optional: If you want a list of filenames explicitly
+const imageList = [];
 
+for (let i = 1; i <= totalPhotos; i++) {
+    imageList.push(`foto${i}.jpg`);
+}
 
-  // ... continue for all your photos
-];
-
-// Dynamically create img elements
-
-
-// continue your list here
-
+// This array can be used by script.js if needed
+// In this setup, script.js already generates images using totalPhotos
+// So you can use imageList or totalPhotos — both work
