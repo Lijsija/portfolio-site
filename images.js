@@ -1,7 +1,7 @@
 // images.js
 
 // Number of images in your portfolio
-const totalPhotos = 107; // update if you add/remove images
+const totalPhotos = 117; // update if you add/remove images
 
 // Optional: If you want a list of filenames explicitly
 const imageList = [];
