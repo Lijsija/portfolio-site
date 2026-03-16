@@ -3,7 +3,7 @@
 const galleryContainer = document.getElementById('gallery');
 
 // TOTAL NUMBER OF PHOTOS
-const totalPhotos = 117; // adjust if you have more or fewer images
+const totalPhotos = 112; // adjust if you have more or fewer images
 
 const images = [];
 
